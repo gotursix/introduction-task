@@ -1,4 +1,9 @@
 body {
+    /* Added by reloadedd (Ionut) */
+    background-color: black;
+    color: white;
+
+    /* Original */
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -27,29 +32,30 @@ body {
 }
 
 #content {
+    /* Original */
     width: 60%;
     text-align: center;
 }
 
 .post {
+    /* Added by reloadedd (Ionut) */
+    border-color: red;
+        
+    /* Original */
     border-style: solid;
     border-width: 1px;
-    padding: 1%;
+    padding: 1%; 
     margin: 1%;
 }
 
 #container {
+    /* Added by reloadedd (Ionut) */
+    align-items: center;
+    
+    /* Original */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 1%;
-    margin-top: 50px;
-}
-
-.item {
-    width: 20%;
-    height: 850px;
-    border: solid 1px #000;
-    text-align: center;
-    margin-top: 0.5%;
+    margin-top: 25px;
 }
