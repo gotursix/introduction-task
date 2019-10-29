@@ -1,0 +1,3 @@
+# Version 1.1
+- Changed the colors (full black with red accents)
+- Made the sidepanels fixed
