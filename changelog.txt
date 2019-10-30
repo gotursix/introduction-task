@@ -1,3 +1,11 @@
 # Version 1.1
 - Changed the colors (full black with red accents)
-- Made the sidepanels fixed
+- Made the side panels fixed
+
+# Version 1.1b
+- Moved all images into a separated folder (/images).
+
+# Version 1.2
+- Moved all .css files into a separate folder (/css).
+- Removed paragraphs from the side panels.
+- Updated README.md

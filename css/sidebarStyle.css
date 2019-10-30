@@ -7,7 +7,7 @@
     left: 0;
     top: 5%;
     position: fixed;
-    background-image: url("images/35802.jpg");
+    background-image: url("../images/35802.jpg");
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -20,7 +20,7 @@
     position: fixed;
     right: 0;
     top: 5%;
-    background-image: url("images/raindrops-on-glass-window-qv-1920x1080.jpg");
+    background-image: url("../images/raindrops-on-glass-window-qv-1920x1080.jpg");
     font-family: 'Courier New', Courier, monospace;
 }
 
