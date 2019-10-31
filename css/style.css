@@ -13,7 +13,7 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color: #c02126;
 }
 
 .topnav a {
@@ -46,6 +46,7 @@ body {
     border-width: 1px;
     padding: 1%;
     margin: 1%;
+    margin-top: 2.7%
 }
 
 /*Added by reloadedd (Ionut)*/
@@ -55,6 +56,7 @@ body {
     float: left;
     object-fit: contain;
     margin: 0 15px 0 0;
+    margin-top: 25px;
 }
 
 #container {
