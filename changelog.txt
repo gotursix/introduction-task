@@ -9,3 +9,8 @@
 - Moved all .css files into a separate folder (/css).
 - Removed paragraphs from the side panels.
 - Updated README.md
+
+# Version 1.3
+- Changed the title
+- Added images with ASII members into /images folder
+- Used those images on the website, so that for each image there corresponds a box together with a description

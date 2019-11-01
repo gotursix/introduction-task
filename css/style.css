@@ -40,12 +40,21 @@ body {
 .post {
     /* Added by reloadedd (Ionut) */
     border-color: red;
-        
+
     /* Original */
     border-style: solid;
     border-width: 1px;
-    padding: 1%; 
+    padding: 1%;
     margin: 1%;
+}
+
+/*Added by reloadedd (Ionut)*/
+.post img {
+    height: 500px;
+    width: 500px;
+    float: left;
+    object-fit: contain;
+    margin: 0 15px 0 0;
 }
 
 #container {
