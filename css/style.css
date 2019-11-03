@@ -35,8 +35,6 @@ body {
     /* Original */
     width: 60%;
     text-align: center;
-    
-    
 }
 
 .post {
@@ -48,10 +46,7 @@ body {
     border-width: 1px;
     padding: 1%;
     margin: 1%;
-    margin-top: 2.7%;
-    background-image: url("../images/bg1.jpg");
-    
-    
+    margin-top: 2.7%
 }
 
 /*Added by reloadedd (Ionut)*/
