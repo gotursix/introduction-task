@@ -40,13 +40,13 @@ body {
 .post {
     /* Added by reloadedd (Ionut) */
     border-color: red;
+    height: auto;
 
     /* Original */
     border-style: solid;
     border-width: 1px;
-    padding: 1%;
-    margin: 1%;
-    margin-top: 2.7%
+    padding: .5%;
+    margin: 1.8% 1% 1%;
 }
 
 /*Added by reloadedd (Ionut)*/
@@ -55,8 +55,7 @@ body {
     width: 500px;
     float: left;
     object-fit: contain;
-    margin: 0 15px 0 0;
-    margin-top: 25px;
+    margin: 25px 15px 0 0;
 }
 
 #container {
