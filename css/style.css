@@ -2,7 +2,6 @@ body {
     /* Added by reloadedd (Ionut) */
     background-color: black;
     color: white;
-
     /* Original */
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +13,7 @@ body {
     top: 0;
     width: 100%;
     background-color: #c02126;
+    margin: 0 3rem 0 0;
 }
 
 .topnav a {
@@ -41,7 +41,6 @@ body {
     /* Added by reloadedd (Ionut) */
     border-color: red;
     height: auto;
-
     /* Original */
     border-style: solid;
     border-width: 1px;
@@ -49,10 +48,12 @@ body {
     margin: 1.8% 1% 1%;
 }
 
+
 /*Added by reloadedd (Ionut)*/
+
 .post img {
     height: 500px;
-    width: 500px;
+    width: auto;
     float: left;
     object-fit: contain;
     margin: 25px 15px 0 0;
@@ -61,7 +62,6 @@ body {
 #container {
     /* Added by reloadedd (Ionut) */
     align-items: center;
-    
     /* Original */
     display: flex;
     flex-direction: column;

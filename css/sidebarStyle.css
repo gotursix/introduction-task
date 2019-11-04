@@ -20,6 +20,7 @@
     right: 0;
     top: 5%;
     font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
 }
 
 .sidebarLeft img {
@@ -32,4 +33,63 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-height: 750px) {
+    .sidebarRight {
+        height: 85%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+    .sidebarLeft {
+        height: 85%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    .sidebarRight {
+        height: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .sidebarLeft {
+        height: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .sidebarRight {
+        height: 75%;
+        margin-top: 5%;
+    }
+    .sidebarLeft {
+        height: 75%;
+        margin-top: 5%;
+    }
+}
+
+@media screen and (max-height: 350px) {
+    .sidebarRight {
+        height: 75%;
+        margin-top: 9%;
+    }
+    .sidebarLeft {
+        height: 75%;
+        margin-top: 9%;
+    }
+}
+
+@media screen and (max-height: 250px) {
+    .sidebarRight {
+        height: 55%;
+        margin-top: 15%;
+    }
+    .sidebarLeft {
+        height: 55%;
+        margin-top: 15%;
+    }
 }
