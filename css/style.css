@@ -31,6 +31,12 @@ body {
     color: black;
 }
 
+.logo-class{
+    max-height: 65px;
+    padding-left: 1%;
+    padding-top: 5px;
+}
+
 #content {
     /* Original */
     width: 60%;
@@ -54,11 +60,12 @@ body {
 /*Added by reloadedd (Ionut)*/
 
 .post img {
-    height: 500px;
-    width: auto;
+    text-align: center ;
+    max-height: 6%;
+    width: 90%;
     float: left;
     object-fit: contain;
-    margin: 25px 15px 0 0;
+    padding: 5%;
 }
 
 #container {

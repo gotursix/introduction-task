@@ -3,7 +3,7 @@
     height: 92%;
     border: solid 1px red;
     text-align: center;
-    margin: 1% .5% .5%;
+    margin:2% .5% .5%;
     left: 0;
     top: 5%;
     position: fixed;
@@ -15,7 +15,7 @@
     height: 92%;
     border: solid 1px red;
     text-align: center;
-    margin: 1% .5% .5%;
+    margin: 2% .5% .5%;
     position: fixed;
     right: 0;
     top: 5%;
@@ -35,61 +35,82 @@
     object-fit: cover;
 }
 
-@media screen and (max-height: 750px) {
+@media screen and (max-height: 1050px) {
+
+    #container{
+        padding-top:1%;
+    }
+}
+
+
+
+@media screen and (max-height: 850px) {
     .sidebarRight {
-        height: 85%;
-        margin-top: 3%;
+        height: 75%;
+        margin-top: 6%;
         margin-bottom: 5%;
     }
     .sidebarLeft {
-        height: 85%;
-        margin-top: 3%;
+        height:75%;
+        margin-top: 6%;
         margin-bottom: 5%;
+    }
+    #container{
+        padding-top:3%;
     }
 }
 
 @media screen and (max-height: 500px) {
     .sidebarRight {
-        height: 80%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        height: 70%;
+        margin-top: 8%;
     }
     .sidebarLeft {
-        height: 80%;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        height: 70%;
+       margin-top: 8%;
+   }
+    #container{
+        padding-top:3%;
     }
 }
 
 @media screen and (max-height: 450px) {
     .sidebarRight {
-        height: 75%;
-        margin-top: 5%;
+        height: 65%;
+        margin-top:10%;
     }
     .sidebarLeft {
-        height: 75%;
-        margin-top: 5%;
+        height: 65%;
+        margin-top:10%;
     }
 }
 
 @media screen and (max-height: 350px) {
     .sidebarRight {
-        height: 75%;
-        margin-top: 9%;
+        height: 55%;
+        margin-top: 15%;
     }
     .sidebarLeft {
-        height: 75%;
-        margin-top: 9%;
+        height: 55%;
+        margin-top: 15%;
+    }
+    #container {
+        padding-top: 4%;
     }
 }
 
-@media screen and (max-height: 250px) {
+
+@media screen and (max-height: 200px){
     .sidebarRight {
-        height: 55%;
-        margin-top: 15%;
+        height: 40%;
+        margin-top: 20%;
     }
     .sidebarLeft {
-        height: 55%;
-        margin-top: 15%;
+        height: 40%;
+        margin-top: 20%;
     }
+    #container {
+        padding-top: 5%;
+    }
+}
 }
